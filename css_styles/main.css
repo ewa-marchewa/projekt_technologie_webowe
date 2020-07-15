@@ -1,0 +1,88 @@
+@charset "utf-8";
+.todo {
+	margin: auto;
+		border: 10px solid white;
+		padding: 20px;
+width:300px;
+
+
+
+}
+
+body {
+background:blue;}
+header {
+background: peachpuff;
+border: 9px solid green;}
+footer {
+background: peachpuff;
+border: 9px solid green;}
+
+ ul {
+	 
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-size:0;
+    display: block;
+}
+ul li {
+	
+    display: inline-block;
+    max-width:100px;
+    min-width:15%;
+    text-align: center;
+}
+ul li a {
+    
+	font:bold 17px 'Open Sans', sans-serif;
+    color:black;
+    height:60px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    text-decoration: none;
+    border-style:solid;
+	border-color:black;
+	margin:5px;
+}
+
+a:hover {
+  background: orange;
+}
+#wybor{
+background: khaki;}
+
+section{
+	margin: 15px;
+	border: 15 px;
+padding: 65 px;}
+
+.akapit{
+	padding:30px;
+border: 20px solid white; 
+margin: 5px;}
+
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+.video-container video,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+}
+.video-wrap {
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+}
+
+

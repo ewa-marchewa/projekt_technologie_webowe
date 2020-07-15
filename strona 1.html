@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel="stylesheet" href="css_styles/main.css" type="text/css" />
+<meta charset="UTF_8">
+<meta name="viewport" content="width=device-width, initial-scale=1.8">
+</head>
+<body>
+
+    <!--header z menu-->
+    <!--puste html z tekstem-->
+
+    <header>
+        <ul>
+            <li><a  href="index.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>index
+</a>
+            <li><a id="wybor" href="strona 1.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>strona1
+</a>
+            <li><a href="strona 2.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>strona2
+</a>
+            <li><a href="strona 3.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>strona3
+</a>
+        </ul>
+    </header>
+
+
+
+<div class="todo">
+  <h2>My To Do List</h2>
+  <input type="text" id="myInput" placeholder="wpisz rzecz do zrobienia">
+ <button> <span onclick="newElement()">Add</span></button>
+
+
+<ol id="myUL">
+  <li>Hit the gym</li>
+  <li>Pay bills</li>
+  <li>Meet George</li>
+  <li>Buy eggs</li>
+  <li>Read a book</li>
+  <li>Organize office</li>
+</ol>
+</div>
+<script>
+function newElement() 
+{
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  document.getElementById("myUL").appendChild(li);
+  document.getElementById("myInput").value = "";
+}
+
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+</script>
+
+
+
+
+        <footer>
+            <ul>
+            <li><a  href="index.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>index
+</a>
+            <li><a id="wybor" href="strona 1.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>strona1
+</a>
+            <li><a href="strona 2.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>strona2
+</a>
+            <li><a href="strona 3.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width=10 height=10 viewBox="0 0 32 32" {...props}>
+        <path d="M11.68 0l13.12 13.28 2.88 2.72-2.88 2.72-13.12 13.28-2.88-2.72 13.28-13.28-13.28-13.28z"></path>
+    </svg>strona3
+</a>
+        </ul>
+        </footer>
+
+
+
+
+
+
+
+
+
+        <p>lorem ipsum</p>
+        <span>lorem ipsum</span>
+        <div>
+            +
+            <span>lorem ipsum</span>
+        </div>
+        <section></section>
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+        <h4></h4>
+        <h5></h5>
+        <h6></h6>
+        <ing src="" />
+        </video>
+
+</body>
+</html>
