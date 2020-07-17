@@ -1,21 +1,27 @@
 @charset "utf-8";
 .todo {
-	margin: auto;
-		border: 10px solid white;
+	margin: 50px;
+		background: white;
+		opacity: 0.6;
+		border: 5px solid white;
 		padding: 20px;
-width:300px;
+        width:300px;
+		font:  small-caps bold 15px/30px Georgia, serif;
 
 
 
 }
 
 body {
-background:blue;}
+  background: url(../assets/4025565.jpg);
+  background-size: cover;
+  position: relative;
+}
 header {
-background: peachpuff;
+background: #2E8B57;
 border: 9px solid green;}
 footer {
-background: peachpuff;
+background: #2E8B57;
 border: 9px solid green;}
 
  ul {
@@ -48,10 +54,10 @@ ul li a {
 }
 
 a:hover {
-  background: orange;
+  background: #556B2F;
 }
 #wybor{
-background: khaki;}
+background: #BDB76B;}
 
 section{
 	margin: 15px;
@@ -60,8 +66,10 @@ padding: 65 px;}
 
 .akapit{
 	padding:30px;
-border: 20px solid white; 
-margin: 5px;}
+border: 1px solid white; 
+background: white;
+opacity: 0.6;
+margin: 50px;}
 
 
 .video-container {
@@ -83,6 +91,12 @@ height: 100%;
 width: 100%;
 max-width: 800px;
 margin: 0 auto;
+}
+
+.page1{
+	background: url(../assets/landscape-1192669_1920.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 
