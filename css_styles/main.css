@@ -18,11 +18,11 @@ body {
   position: relative;
 }
 header {
-background: #2E8B57;
-border: 9px solid green;}
+background: #8FBC8F;
+border: 7px #2E8B57;}
 footer {
-background: #2E8B57;
-border: 9px solid green;}
+background: #8FBC8F;
+border: 7px #2E8B57;}
 
  ul {
 	 
@@ -41,15 +41,15 @@ ul li {
 }
 ul li a {
     
-	font:bold 17px 'Open Sans', sans-serif;
-    color:black;
+	font: 14px American Typewriter, sans-serif;
+    color: black;
     height:60px;
     display: flex;
 	align-items: center;
 	justify-content: center;
     text-decoration: none;
     border-style:solid;
-	border-color:black;
+	border-color:#008000;
 	margin:5px;
 }
 
